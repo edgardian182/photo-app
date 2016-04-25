@@ -5,9 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 # Use sqlite3 as the database for Active Record
 
-gem 'devise'
+gem 'devise' # Para el manejo de la auntentificacion de usuarios
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'stripe' # Para realizar pagos online
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
